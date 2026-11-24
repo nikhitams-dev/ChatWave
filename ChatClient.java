@@ -20,7 +20,7 @@ public class ChatClient {
 
         try {
 
-            socket = new Socket("localhost", 5000);
+            socket = new Socket("reseau.proxy.rlwy.net", 36371);
 
             input = new BufferedReader(
                 new InputStreamReader(socket.getInputStream())
